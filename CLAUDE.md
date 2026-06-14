@@ -10,10 +10,10 @@
 ## Agency Profile
 - Type: off_plan
 - Size: boutique
-- Speciality: residential
-- Target market: both
-- Brand style: luxury_light
-- Has brand guidelines: no
+- Speciality: choose_for_me
+- Target market: choose_for_me
+- Brand style: luxury_dark
+- Has brand guidelines: choose_for_me
 
 ## Design Standards
 - Boutique/luxury: Cormorant Garamond or Playfair Display headlines, 2-3 colour palette, navy/cream/gold typical
@@ -33,6 +33,8 @@
 - Wider agency: valtora.ae, masarassets.com
 
 ## Build Rules (mandatory)
+- public/index.html already contains a template — customise it, do NOT start from scratch
+- Replace ALL placeholder text, colours, and branding with this agent's details
 - Edit public/index.html only (single HTML file, no build tools, no npm)
 - No external JS libraries — vanilla JS only
 - Google Fonts and Lucide icons CDN are allowed

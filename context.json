@@ -1,9 +1,9 @@
 {
   "agency_type": "off_plan",
   "agency_size": "boutique",
-  "speciality": "residential",
-  "target_market": "both",
-  "brand_style": "luxury_light",
-  "has_brand": "no",
+  "speciality": "choose_for_me",
+  "target_market": "choose_for_me",
+  "brand_style": "luxury_dark",
+  "has_brand": "choose_for_me",
   "onboarded": true
 }
