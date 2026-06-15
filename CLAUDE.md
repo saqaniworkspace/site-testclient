@@ -10,16 +10,18 @@
 ## Agency Profile
 - Type: off_plan
 - Size: boutique
-- Speciality: choose_for_me
-- Target market: choose_for_me
-- Brand style: luxury_dark
-- Has brand guidelines: choose_for_me
+- Speciality: luxury
+- Target market: both
+- Brand style: choose_for_me
+- Has brand guidelines: no
 
 ## Design Standards
 - Boutique/luxury: Cormorant Garamond or Playfair Display headlines, 2-3 colour palette, navy/cream/gold typical
 - Wider agency: trust signals, team section, WhatsApp CTA prominent, multiple service cards
 - Off-plan: developer partner logos, payment plan tables, project launch cards
 - All sites: mobile-first, WhatsApp float button (wa.me/ link), KYC form link in nav and footer, RERA ID in footer
+- KYC form: each agent has a dedicated page at /{slug}/kyc — it is a simple contact/KYC form (name, email, phone, nationality, budget) that emails the agent on submit. No login, no accounts, no authentication anywhere on the site
+- NEVER add login pages, sign-up forms, or any authentication to client websites
 
 ## UAE Real Estate Rules
 - All prices in AED

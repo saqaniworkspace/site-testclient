@@ -11,25 +11,25 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --navy:#122949;
-  --navy-dark:#0c1d33;
-  --navy-mid:#3c5675;
-  --cream:#f2ede4;
-  --cream-light:#f2ede4;
-  --silver:#c9cfd4;
-  --silver-light:#e8ebee;
+  --navy:#8B1111;
+  --navy-dark:#6B0A0A;
+  --navy-mid:#C04444;
+  --cream:#ffffff;
+  --cream-light:#fff5f5;
+  --silver:#f0d9d9;
+  --silver-light:#fdf0f0;
   --gold:#c5973a;
   --gold-light:#d9af60;
   --gold-pale:rgba(197,151,58,0.12);
-  --charcoal:#122949;
-  --text-muted:#3c5675;
+  --charcoal:#1a0505;
+  --text-muted:#7a2020;
   --white:#ffffff;
 }
 html{scroll-behavior:smooth}
 body{font-family:'Montserrat',sans-serif;background:var(--cream);color:var(--charcoal);overflow-x:hidden}
 
 /* ── TOPBAR ── */
-.topbar{position:fixed;top:0;left:0;right:0;z-index:1001;background:var(--navy-dark);border-bottom:1px solid rgba(197,151,58,0.2);height:36px;display:flex;align-items:center;padding:0 40px}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:1001;background:#6B0A0A;border-bottom:1px solid rgba(197,151,58,0.2);height:36px;display:flex;align-items:center;padding:0 40px}
 .topbar-inner{display:flex;justify-content:space-between;align-items:center;width:100%;font-size:11px}
 .topbar-left{display:flex;gap:24px;align-items:center}
 .topbar-link{color:rgba(255,255,255,0.6);text-decoration:none;display:inline-flex;align-items:center;gap:6px;letter-spacing:0.4px;transition:color .3s}
@@ -39,20 +39,20 @@ body{font-family:'Montserrat',sans-serif;background:var(--cream);color:var(--cha
 .topbar-right a:hover{background:var(--gold);color:var(--navy-dark)}
 
 /* ── NAV ── */
-nav{position:fixed;top:36px;left:0;right:0;z-index:1000;background:rgba(18,41,73,0.97);backdrop-filter:blur(14px);border-bottom:1px solid rgba(197,151,58,0.18);padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:76px;transition:all .3s}
+nav{position:fixed;top:36px;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.98);backdrop-filter:blur(14px);border-bottom:1px solid rgba(139,17,17,0.12);padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:76px;transition:all .3s}
 .logo-wrap{display:flex;align-items:center;gap:14px;text-decoration:none}
 .logo-mark{width:44px;height:44px;background:var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.logo-mark span{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:var(--navy);letter-spacing:1px}
+.logo-mark span{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:700;color:#fff;letter-spacing:1px}
 .logo-text-wrap{display:flex;flex-direction:column}
-.logo-name{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:#fff;letter-spacing:3px;line-height:1}
+.logo-name{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:600;color:var(--navy);letter-spacing:3px;line-height:1}
 .logo-sub{font-size:8px;letter-spacing:4px;color:var(--gold);font-weight:500;margin-top:4px;text-transform:uppercase}
 nav ul{display:flex;gap:30px;list-style:none;align-items:center}
-nav ul a{color:rgba(255,255,255,0.78);text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;transition:color .3s}
-nav ul a:hover{color:var(--gold)}
+nav ul a{color:rgba(26,5,5,0.75);text-decoration:none;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;transition:color .3s}
+nav ul a:hover{color:var(--navy)}
 .nav-cta{background:var(--gold)!important;color:var(--navy)!important;padding:10px 22px;font-weight:700!important;letter-spacing:1.5px}
 .nav-cta:hover{background:var(--gold-light)!important;color:var(--navy-dark)!important}
 .nav-mobile-btn{display:none;background:none;border:none;cursor:pointer;padding:4px}
-.nav-mobile-btn svg{stroke:#fff;width:24px;height:24px}
+.nav-mobile-btn svg{stroke:var(--navy);width:24px;height:24px}
 
 /* ── HERO ── */
 .hero{min-height:100vh;position:relative;overflow:hidden;display:flex;align-items:center;padding-top:112px}
